@@ -28,5 +28,5 @@ Reduced Build Time: Build only the necessary assets and code for each flavor, op
 * When you offer free and paid versions of your app.
 * When you want to conduct A/B testing.
 
-[<img alt="alt_text" src="https://github.com/vinittailor/flavor_demo/assets/108751165/5a81b9fc-8044-4caa-8b21-adc2ad1c69b0" width="50" height="50" />](www.linkedin.com/in/vinittailor)
+[<img alt="LinkedIn ID" src="https://github.com/vinittailor/flavor_demo/assets/108751165/5a81b9fc-8044-4caa-8b21-adc2ad1c69b0" width="50" height="50" />](https://www.linkedin.com/in/vinittailor/)
 
