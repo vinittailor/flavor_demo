@@ -29,4 +29,6 @@ Reduced Build Time: Build only the necessary assets and code for each flavor, op
 * When you want to conduct A/B testing.
 
 [<img alt="LinkedIn ID" src="https://github.com/vinittailor/flavor_demo/assets/108751165/5a81b9fc-8044-4caa-8b21-adc2ad1c69b0" width="50" height="50" />](https://www.linkedin.com/in/vinittailor/)
+[<img alt="Instagram ID" src="https://github.com/vinittailor/flavor_demo/assets/108751165/644dfed7-b409-4aec-a810-fd4a99cf971f" width="50" height="50" />](https://www.instagram.com/vinit.flutterdev/)
+
 
