@@ -1,0 +1,59 @@
+name: flavor_demo
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+flavorDimensions: environment
+productFlavors:
+  dev:
+    dimension: environment
+    buildConfigField:
+      type: "String"
+      name: "API_ENDPOINT"
+      value: "\"https://api.dev.example.com\""
+  staging:
+    dimension: environment
+    buildConfigField:
+      type: "String"
+      name: "API_ENDPOINT"
+      value: "\"https://api.staging.example.com\""
+  production:
+    dimension: environment
+    buildConfigField:
+      type: "String"
+      name: "API_ENDPOINT"
+      value: "\"https://api.example.com\""
+
+
+#flavor:
+#  dev:
+#    name: dev
+#    buildName: flutter_app_dev
+#  staging:
+#    name: staging
+#    buildName: flutter_app_staging
+#  production:
+#    name: production
+#    buildName: flutter_app_production
